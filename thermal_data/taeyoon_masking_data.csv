@@ -1,0 +1,17 @@
+Name,Setpoint,Achieved Temperature,Time Interval (s),Time to Reach (s),Feedback
+taeyoon,40.0,,19,19.12,Hot
+taeyoon,32.0,31.77,19,19.44,Neutral
+taeyoon,40.0,,19,19.42,Hot
+taeyoon,24.0,29.33,19,19.33,Cold
+taeyoon,40.0,35.68,19,19.51,Warm
+taeyoon,36.0,35.68,19,19.47,Warm
+taeyoon,40.0,,19,19.42,Hot
+taeyoon,28.0,,19,19.33,Cool
+taeyoon,24.0,26.39,19,19.22,Cold
+taeyoon,32.0,28.35,19,19.01,Neutral
+taeyoon,24.0,,19,19.43,Cold
+taeyoon,40.0,35.19,19,19.39,Hot
+taeyoon,24.0,,19,19.3,Cool
+taeyoon,28.0,,19,19.42,Cool
+taeyoon,24.0,,19,19.44,Cool
+taeyoon,36.0,,19,19.43,Warm

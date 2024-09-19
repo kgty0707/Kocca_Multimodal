@@ -1,0 +1,17 @@
+Name,Setpoint,Achieved Temperature,Time Interval (s),Time to Reach (s),Feedback
+eunchae,40.0,38.12,19,19.46,Hot
+eunchae,32.0,33.72,19,19.01,Neutral
+eunchae,40.0,40.08,19,19.23,Hot
+eunchae,24.0,29.81,19,19.52,Cool
+eunchae,40.0,36.17,19,19.08,Hot
+eunchae,36.0,35.68,19,19.21,Warm
+eunchae,40.0,39.59,19,19.42,Hot
+eunchae,28.0,29.81,19,19.02,Cool
+eunchae,24.0,,19,19.29,Cold
+eunchae,32.0,,19,19.22,Neutral
+eunchae,24.0,,19,19.0,Cool
+eunchae,40.0,37.63,19,19.25,Hot
+eunchae,24.0,,19,19.37,Cool
+eunchae,28.0,26.39,19,19.17,Cool
+eunchae,24.0,25.42,19,19.1,Cold
+eunchae,36.0,,19,19.3,Warm
