@@ -1,0 +1,17 @@
+Name,Setpoint,Achieved Temperature,Time Interval (s),Time to Reach (s),Feedback
+minju,40.0,,19,19.02,Hot
+minju,32.0,,19,19.17,Neutral
+minju,40.0,39.59,19,19.19,Hot
+minju,24.0,28.35,19,19.36,Cool
+minju,40.0,,19,19.33,Warm
+minju,36.0,35.68,19,19.19,Warm
+minju,40.0,,19,19.0,Hot
+minju,28.0,30.3,19,19.12,Cool
+minju,24.0,25.42,19,19.48,Cold
+minju,32.0,28.84,19,19.03,Neutral
+minju,24.0,,19,19.23,Cold
+minju,40.0,38.61,19,19.07,Hot
+minju,24.0,,19,19.25,Cool
+minju,28.0,26.88,19,19.29,Neutral
+minju,24.0,,19,19.1,Cool
+minju,36.0,33.24,19,19.17,Warm
