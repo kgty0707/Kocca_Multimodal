@@ -14,9 +14,9 @@ def submit_time(choice):
     selected_time = choice
     time_window.destroy()
 
-def submit_feedback(feedback):
+def submit_feedback():
     global feedback_result
-    feedback_result = feedback
+    feedback_result = feedback_entry.get()  # 사용자가 입력한 숫자를 가져옴
     feedback_window.destroy()
 
 def show_name_window():
@@ -57,18 +57,18 @@ def show_time_window():
     return selected_time  # 창이 닫힌 후 selected_time 반환
 
 def show_feedback_window():
-    global feedback_window
+    global feedback_entry, feedback_window
     feedback_window = tk.Tk()
     feedback_window.title("Feedback")
     
-    label = tk.Label(feedback_window, text="Please provide your feedback on the system's performance:")
+    label = tk.Label(feedback_window, text="Please provide your feedback as a number (can include decimals):")
     label.pack(pady=10)
     
-    buttons = ["Cold", "Cool", "Neutral", "Warm", "Hot"]
+    feedback_entry = tk.Entry(feedback_window)  # 숫자를 입력받는 텍스트 입력 상자
+    feedback_entry.pack(pady=5)
     
-    for b in buttons:
-        button = tk.Button(feedback_window, text=b, width=20, command=lambda b=b: submit_feedback(b))
-        button.pack(pady=5)
+    submit_button = tk.Button(feedback_window, text="Submit", command=submit_feedback)
+    submit_button.pack(pady=10)
     
     feedback_window.mainloop()
     return feedback_result  # 창이 닫힌 후 feedback_result 반환

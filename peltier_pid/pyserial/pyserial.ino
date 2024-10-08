@@ -1,9 +1,9 @@
 #include <PID_v1.h>
 
 // 핀 정의
-const int heaterPin = 10;  // 히터 (또는 펠티어 소자) 제어를 위한 PWM 출력 핀
-const int dirPin = 13;     // 펠티어 소자의 방향 핀 (가열 또는 냉각)
-const int tempSensorPin = A4;  // 온도 센서 입력 핀
+const int heaterPin = 6;  // 히터 (또는 펠티어 소자) 제어를 위한 PWM 출력 핀
+const int dirPin = 7;     // 펠티어 소자의 방향 핀 (가열 또는 냉각)
+const int tempSensorPin = A3;  // 온도 센서 입력 핀
 float vout;
 
 // PID 제어 변수
